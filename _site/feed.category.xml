@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
 	<channel>
 		<title> - Naringu</title>
 <<<<<<< HEAD
@@ -7,19 +7,19 @@
 =======
 		<description>Posts categorized as 'Naringu'</description>
 >>>>>>> master
-		<link>http://singularity.io/</link>
-        <atom:link href="http://singularity.io/feed.category.xml" rel="self" type="application/rss+xml" />
+		<link>https://www.devilsec.io</link>
+        <atom:link href="https://www.devilsec.iofeed.category.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Hello Naringu!</title>
 				
-					<description>&lt;p&gt;Naringu is a hacker like jekyll dark theme, it’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+					<description>&lt;p&gt;Naringu is a hacker like jekyll dark theme, it’s based on &lt;a href=&quot;https://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 </description>
 				
 				<pubDate>Sat, 21 Feb 2015 00:00:00 -0500</pubDate>
-				<link>http://singularity.io//naringu/2015/02/21/Hello-Naringu/</link>
-				<guid isPermaLink="true">http://singularity.io//naringu/2015/02/21/Hello-Naringu/</guid>
+				<link>https://www.devilsec.io/naringu/2015/02/21/Hello-Naringu/</link>
+				<guid isPermaLink="true">https://www.devilsec.io/naringu/2015/02/21/Hello-Naringu/</guid>
 			</item>
 		
 			<item>
@@ -152,14 +152,14 @@
 </description>
 				
 				<pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
-				<link>http://singularity.io//naringu/2014/01/01/example-content/</link>
-				<guid isPermaLink="true">http://singularity.io//naringu/2014/01/01/example-content/</guid>
+				<link>https://www.devilsec.io/naringu/2014/01/01/example-content/</link>
+				<guid isPermaLink="true">https://www.devilsec.io/naringu/2014/01/01/example-content/</guid>
 			</item>
 		
 			<item>
 				<title>What&#39;s Jekyll?</title>
 				
-					<description>&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+					<description>&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
@@ -171,8 +171,8 @@
 </description>
 				
 				<pubDate>Tue, 31 Dec 2013 00:00:00 -0500</pubDate>
-				<link>http://singularity.io//naringu/2013/12/31/whats-jekyll/</link>
-				<guid isPermaLink="true">http://singularity.io//naringu/2013/12/31/whats-jekyll/</guid>
+				<link>https://www.devilsec.io/naringu/2013/12/31/whats-jekyll/</link>
+				<guid isPermaLink="true">https://www.devilsec.io/naringu/2013/12/31/whats-jekyll/</guid>
 			</item>
 		
 	</channel>

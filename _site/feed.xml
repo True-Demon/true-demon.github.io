@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
-    <title>Singularity Blog</title>
-    <description>Just another geek in love with breaking things.</description>
-    <link>http://singularity.io///</link>
-    <atom:link href="http://singularity.io///feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 May 2018 01:08:39 -0400</pubDate>
-    <lastBuildDate>Thu, 03 May 2018 01:08:39 -0400</lastBuildDate>
+    <title>Devil Security Blog</title>
+    <description></description>
+    <link>https://www.devilsec.io//</link>
+    <atom:link href="https://www.devilsec.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jun 2018 13:16:02 -0400</pubDate>
+    <lastBuildDate>Mon, 18 Jun 2018 13:16:02 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -23,12 +23,12 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 02 May 2018 21:58:07 -0400</pubDate>
-        <link>http://singularity.io///jekyll/update/2018/05/02/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://singularity.io///jekyll/update/2018/05/02/welcome-to-jekyll/</guid>
+        <link>https://www.devilsec.io//jekyll/update/2018/05/02/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://www.devilsec.io//jekyll/update/2018/05/02/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
@@ -39,7 +39,7 @@
     
       <item>
         <title>Hello Naringu!</title>
-        <description>&lt;p&gt;Naringu is a hacker like jekyll dark theme, it’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+        <description>&lt;p&gt;Naringu is a hacker like jekyll dark theme, it’s based on &lt;a href=&quot;https://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
 
@@ -79,8 +79,8 @@
 &lt;p&gt;Thanks!&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://singularity.io///naringu/2015/02/21/Hello-Naringu/</link>
-        <guid isPermaLink="true">http://singularity.io///naringu/2015/02/21/Hello-Naringu/</guid>
+        <link>https://www.devilsec.io//naringu/2015/02/21/Hello-Naringu/</link>
+        <guid isPermaLink="true">https://www.devilsec.io//naringu/2015/02/21/Hello-Naringu/</guid>
         
         
         <category>naringu</category>
@@ -215,8 +215,8 @@
 
 </description>
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
-        <link>http://singularity.io///naringu/2014/01/01/example-content/</link>
-        <guid isPermaLink="true">http://singularity.io///naringu/2014/01/01/example-content/</guid>
+        <link>https://www.devilsec.io//naringu/2014/01/01/example-content/</link>
+        <guid isPermaLink="true">https://www.devilsec.io//naringu/2014/01/01/example-content/</guid>
         
         
         <category>naringu</category>
@@ -225,7 +225,7 @@
     
       <item>
         <title>What&#39;s Jekyll?</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
@@ -236,8 +236,8 @@
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Dec 2013 00:00:00 -0500</pubDate>
-        <link>http://singularity.io///naringu/2013/12/31/whats-jekyll/</link>
-        <guid isPermaLink="true">http://singularity.io///naringu/2013/12/31/whats-jekyll/</guid>
+        <link>https://www.devilsec.io//naringu/2013/12/31/whats-jekyll/</link>
+        <guid isPermaLink="true">https://www.devilsec.io//naringu/2013/12/31/whats-jekyll/</guid>
         
         
         <category>naringu</category>
