@@ -14,8 +14,8 @@ permalink:           pretty
 title:               Devil Security Blog
 tagline:             'Welcome to the darker side of security'
 description:         ''
-url:                 https://www.devilsec.io
-baseurl:             /
+url:                 https://www.devilsec.io/
+baseurl:             ''
 paginate:            7
 
 # About/contact
