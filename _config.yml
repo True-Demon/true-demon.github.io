@@ -15,7 +15,8 @@ title:               Devil Security Blog
 tagline:             'Welcome to the darker side of security'
 description:         ''
 url:                 https://www.devilsec.io/
-baseurl:             ''
+baseurl:             '/'
+image:               images/
 paginate:            7
 
 # About/contact
@@ -37,4 +38,4 @@ reddit:				https://reddit.com/True_Demon
 theme:
   creator:			Rizky Ariestiyansyah
   codename:			Naringu
-  link:             https://github.com/ariestiyansyah/naringu
+  link:             		https://github.com/ariestiyansyah/naringu

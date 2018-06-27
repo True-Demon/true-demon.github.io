@@ -40,6 +40,8 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background: url('/images/bg/blue-binary-bg.png');
+
 }
 @media (min-width: 38em) {
   html {
@@ -49,11 +51,12 @@ html {
 
 body {
   color: #fff;
-  background-color: #111;
-  background-image: '../../images/bg/binary-bg.jpg';
-  background-transparency: 50%;
+  background-color: #000;
+  background-transparency:90%;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  opacity: .95;
+  z-index:-5;
 }
 
 div {
@@ -249,6 +252,8 @@ img {
   margin: 0 0 1rem;
   border-radius: 5px;
 }
+
+.hacker-blue {-webkit-filter: saturate(2.5);}
 
 /*
  * Tables

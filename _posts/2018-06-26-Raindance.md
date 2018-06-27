@@ -2,7 +2,9 @@
 layout: post
 title:  "Raindance: Raining Recon from the Microsoft Cloud"
 date:   2018-06-26
-categories: tools osint
+categories: 
+- tools 
+- osint
 ---
 
 If you've been performing penetration tests for the last several months, then you may have encountered Office 365 in your travels. Office 365 (O365) for the sake of clarity, is the latest and greatest Cloud solution for various popular Microsoft services including Exchange, Sharepoint, Database management, and a cloud-based active directory serviced called Azure Active Directory. It's a great service for businesses of all sizes, except that it just a bit too user-friendly for its own good.
