@@ -7,8 +7,8 @@
 =======
 		<description>Posts categorized as 'Naringu'</description>
 >>>>>>> master
-		<link>https://www.devilsec.io</link>
-        <atom:link href="https://www.devilsec.iofeed.category.xml" rel="self" type="application/rss+xml" />
+		<link>https://www.devilsec.io/</link>
+        <atom:link href="https://www.devilsec.io/feed.category.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Hello Naringu!</title>
@@ -18,8 +18,8 @@
 </description>
 				
 				<pubDate>Sat, 21 Feb 2015 00:00:00 -0500</pubDate>
-				<link>https://www.devilsec.io/naringu/2015/02/21/Hello-Naringu/</link>
-				<guid isPermaLink="true">https://www.devilsec.io/naringu/2015/02/21/Hello-Naringu/</guid>
+				<link>https://www.devilsec.io//naringu/2015/02/21/Hello-Naringu/</link>
+				<guid isPermaLink="true">https://www.devilsec.io//naringu/2015/02/21/Hello-Naringu/</guid>
 			</item>
 		
 			<item>
@@ -152,8 +152,8 @@
 </description>
 				
 				<pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
-				<link>https://www.devilsec.io/naringu/2014/01/01/example-content/</link>
-				<guid isPermaLink="true">https://www.devilsec.io/naringu/2014/01/01/example-content/</guid>
+				<link>https://www.devilsec.io//naringu/2014/01/01/example-content/</link>
+				<guid isPermaLink="true">https://www.devilsec.io//naringu/2014/01/01/example-content/</guid>
 			</item>
 		
 			<item>
@@ -171,8 +171,8 @@
 </description>
 				
 				<pubDate>Tue, 31 Dec 2013 00:00:00 -0500</pubDate>
-				<link>https://www.devilsec.io/naringu/2013/12/31/whats-jekyll/</link>
-				<guid isPermaLink="true">https://www.devilsec.io/naringu/2013/12/31/whats-jekyll/</guid>
+				<link>https://www.devilsec.io//naringu/2013/12/31/whats-jekyll/</link>
+				<guid isPermaLink="true">https://www.devilsec.io//naringu/2013/12/31/whats-jekyll/</guid>
 			</item>
 		
 	</channel>
