@@ -3,6 +3,7 @@ title: About Author
 author: True Demon
 layout: page
 ---
+<img src="/images/head.png" alt="True Demon Avatar" width=200px; height=200px />
 Hello, my name is Mike, but in the Internet community, I commonly go by the pseudonym **True Demon**.
 
 I'm a penetration tester and security researcher with roughly 10 years in the IT industry. As a teenager, I spent a lot of time dabbling in malware and participating in CTF contests that stoked my love for hacking, but never thought of making it a career, but here I am.
