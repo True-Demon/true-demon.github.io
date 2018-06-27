@@ -3,7 +3,7 @@ title: About Author
 author: True Demon
 layout: page
 ---
-<img alt="" src="{{ site.baseurl }}images/head.png" width="200" height="200" />
+<img alt="" src="{{ site.baseurl }}/images/head.png" width="200" height="200" />
 
 Hello, my name is Mike, but in the Internet community, I commonly go by the pseudonym **True Demon**.
 

@@ -16,7 +16,7 @@ tagline:             'Welcome to the darker side of security'
 description:         ''
 url:                 https://www.devilsec.io/
 baseurl:             ''
-image:               images/
+imagesurl:           /images
 paginate:            7
 
 # About/contact

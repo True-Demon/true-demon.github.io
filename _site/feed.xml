@@ -3,10 +3,10 @@
   <channel>
     <title>Devil Security Blog</title>
     <description></description>
-    <link>https://www.devilsec.io///</link>
-    <atom:link href="https://www.devilsec.io///feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jun 2018 01:27:43 -0400</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 01:27:43 -0400</lastBuildDate>
+    <link>https://www.devilsec.io//</link>
+    <atom:link href="https://www.devilsec.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 27 Jun 2018 01:58:33 -0400</pubDate>
+    <lastBuildDate>Wed, 27 Jun 2018 01:58:33 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -115,8 +115,8 @@ This will allow you to proceed.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 26 Jun 2018 00:00:00 -0400</pubDate>
-        <link>https://www.devilsec.io///tools/osint/2018/06/26/Raindance/</link>
-        <guid isPermaLink="true">https://www.devilsec.io///tools/osint/2018/06/26/Raindance/</guid>
+        <link>https://www.devilsec.io//tools/osint/2018/06/26/Raindance/</link>
+        <guid isPermaLink="true">https://www.devilsec.io//tools/osint/2018/06/26/Raindance/</guid>
         
         
         <category>tools</category>
