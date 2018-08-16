@@ -1,24 +1,24 @@
 ---
 layout: post
 title:  "DefCon from the Eyes of a Newb"
-date:   2018-08-14
+date:   2018-08-16
 categories:
 - misc
 ---
 
-# Welcome to DefCon 26
+## Welcome to DefCon 26
 
 I had the opportunity and pleasure of getting to take a trip to Las Vegas during one of the largest hacking and security conferences in the world for the first time this past week. DefCon has always been one of those "Yeah, it'd be nice, but it'll never happen" kinds of experiences, or so I used to think. Thanks to the noble sacrifice of one heroic co-worker, who gave his plane seat that others may go forth in his stead, I had that chance.
 
 Although I consider myself to be reasonably experienced in penetration testing, I anticipated the entire trip to be a profoundly humbling experience. I've always believed that if you want to learn from others, you need to approach them with the understanding that you don't know squat. I can honestly say, that attitude paid off in massive dividends as I walked among some of the brightest minds in Computer Science and discussed my favorite subjects with them. Defcon 26 was my first DefCon ever, and I'm determined to return again with much more to offer than what I took this time around. For the sake of doing it the justice it deserves, I'm here to tell everyone about the magical, tourist-trap wonderland of Las Vegas through the eyes of a bright-eyed 1337 wannabe in the midst of the chaos of the largest hacker event he has ever seen.
 
-# The Arrival
+## The Arrival
 
 After a grueling 5 hours on planes, sad between two fat, sweaty dudes who smelled like John Cena's gym shoes, 3 excessively awkward Uber/Lyft/Taxi rides trying to meander my way through conversations with the drivers, and wading through a sea of half-naked bird-women, buff, shirtless cowboys & mildly murderous Las Vegas traffic, I arrived at Caesar's palace at roughly 1500 hours, Thursday, August 9, 2018. The entire event held from the second & third floors of the casino conference center was teaming with what I can best describe as my favorite kinds of people on the planet.
 
 The sheer number of hackers in one place was overwhelming, and it almost makes you want to rip the battery from your phone at first sight. Registration, as promised, is a cash-only exchange. No names, no ID, no problems. After receiving my adorable DefCon PCB badge, guidebook, and a sheet of some badass stickers to add to my collection, myself and the small group I was with meandered into the casino to appreciate the confused looks of the ordinary casino-goers as thousands of people in all black drab and blinking badges passed over the casino floor.
 
-# Hacker Conduct
+## Hacker Conduct
 
 I'll first let it be said that I personally has not one single negative experience in my interactions with the other attendees. The entire conference was a place of cooperation, competition, and knowledge swapping that you simply don't get from your local hang-outs. Just to put it into perspective, DefCon printed more than 26,000 badges in anticipation of attendance. That's a TON of ideas and Wi-Fi packets floating around in one place. That being said, there was a lot of interactions, all positive in their own ways, with the other attendees. And ... to the best of my knowledge, I didn't get pwned, so... awesome experience! Honestly, everyone is so busy learning from each other and so obnoxiously paranoid that it wouldn't be worthwhile in my opinion to target conference attendees, but that's just me.
 
@@ -30,7 +30,7 @@ For that reason ... many googly eyes were left behind in retaliation.
 
 ![Googly Socates](https://pbs.twimg.com/media/DkN8jPnU4AAvyFt.jpg:small)
 
-# Casino Staff Conduct
+## Casino Staff Conduct
 
 Oh you knew I'd be talking about this one. Yeah, the casino staff started popping locks and busting into rooms like wannabe feds. Well... not literally, I'm sure they had keys, but such a gross invasion of your personal space is no less disturbing as if they kicked in the door. It was supposedly communicated (extremely vaguely, I'm sure) to the DefCon staff that room searches would be standard procedure. What actually ended up happening was unannounced searches and seizures of property by hotel staff from attendees rooms. Personal effects had been rummaged through when guests were not around, and when they were, protests to any search were responded to with a threat of eviction from the casino and potentially accompanying charges.
 
@@ -41,7 +41,7 @@ The cited excuse of the hotel staff was attributed to new policies in the wake o
 
 For those attendees in the future, if you don't want your stuff searched and seized by the hotel, you're better off not staying there. The blatant [middle-finger](https://pbs.twimg.com/media/DkRtYrgVAAEwP0C.jpg) raised by Caesar's Palace in response to any privacy concerns punctuates the fact that they were far less interested in making sure their guests felt "safe" than they were in making sure they could [avoid law-suits](http://www.latimes.com/nation/la-na-mgm-lawsuit-vegas-shooting-20180717-story.html).
 
-# The Talks
+## The Talks
 
 I was admittedly pretty selective of the talks I went to while at DefCon, although the few I did attend had a lot to offer. Two I will immediately call out were "God Mode Unlocked: hardware backdoors in x86 CPUs" from Christopher Domas and "SMBetray: Backdooring and breaking signatures" from William Martin.
 
@@ -55,7 +55,7 @@ For a thorough explanation on the tool and the abuse of this flaw, check out Wil
 
 But the talks are just the beginning of what DefCon had to offer, and the real educating events of the con took place in unexpected corners.
 
-# Badge (Hardware) Hacking
+## Badge (Hardware) Hacking
 
 So, I made it my personal mission to hack the DefCon 26 badge before the con was over ... aaaaaand failed miserably. But that's somewhat to be expected. First of all, the badge was extremely unique and took the usual badge-hacking events to a new level by implementing a game within the badge itself.
 
@@ -70,7 +70,7 @@ I eventually found myself seeking out new information that led me to a [GitHub r
 
 The further I dug into the research, the more I found myself learning about hardware hacking than I'd even considered myself capable of. Just the asking "How the FORK does this thing even work!?" forced me to push my own boundaries and introduced me to a new kind of hacking I'd never seen myself trying. And **THAT** even by itself made the entire plane ride worth while ...
 
-# COMPETITION!
+## COMPETITION!
 
 Oh the competition! The CTF challenges, the Hack Fortress arena, the VulnLab Creation Station, and even a karaoke stage presented me with limitless choices to embarass myself in front of hackers across the planet. In the end, I stuck to my familiar places and ended up at two separate lockpicking stations. In the packet hacking village, of all places, I encountered the *Locksmith's Gauntlet* which was a race-to-the-finish style of lockpicking challenge where you were pitted against a 5-stage series of three locks each, ranked easy, medium, and hard.
 
@@ -85,7 +85,7 @@ Next was the Warl0ck Gamez CTF, with points earned for one of three challenges:
 
 All in all, the competition was a welcome distraction from the constant bombardment of knowledge and information that anyone simply cannot take in all at once.
 
-# The Wrap-up
+## The Wrap-up
 
 DefCon 26 was an unforgetable, humbling, amazing experience that really solidified all the reasons why I fell in love with hacking in the first place. Obviously, I'm looking forward to going back, hopefully without fear of being strip-searched at the doors of the casino and definitely with a new perspective. Walking in for the first time, I had no idea where to even start. Looking back, even after experiencing so much of the con, I missed out on a lot, but no moment was wasted. It's hard to make sense of all deez feelz, but I intend on comming back next year with something to offer a renewed hunger.
 
