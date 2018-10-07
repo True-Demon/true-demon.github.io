@@ -2,63 +2,46 @@
 layout: post
 title:  "What I Learned at DerbyCon"
 date:   2018-10-07
-categories: 
+categories:
 - misc
 ---
 
-It's been an exhausting week while couch-camping my way through another conference, but the sleep debt and neck-pain have been well worth it. Before I get into the details of what I learned 
-while in Louisville, Kentucky for my first DerbyCon, a little about the conference itself. I have to admit that the TrustedSec folks know how to put on a good conference, this having been my third TS-hosted
-con that I've been to. After speaking at BSidesCLE earlier this summer on my last tool release, [Raindance](https://github.com/true-demon/raindance), DerbyCon was massive. This year, after several years of 
-pleading from the DerbyCon attendees, they decided to host this year's conference at the Marriott Hotel in Downtown Louisville, a much needed step-up from its previous, smaller venues. Even after moving up
-to a much bigger hotel where the event took up two whole floors of the lobby, it was still packed with security enthusaists, hackers, and tech-curious individuals all over the world. Having said that, it was
-extremely encouraging to see Benjamin (@GentilKiwi) Delpy, the infamous developer of MimiKatz, attending as a keynote speaker to kick off the conference.
+It's been an exhausting week while couch-camping my way through another conference, but the sleep debt and neck-pain have been well worth it. Before I get into the details of what I learned while in Louisville, Kentucky for my first DerbyCon, a little about the conference itself. I have to admit that the TrustedSec folks know how to put on a good conference, this having been my third TS-hosted con that I've been to. After speaking at BSidesCLE earlier this summer on my last tool release, [Raindance](https://github.com/true-demon/raindance), DerbyCon was massive.  
 
-## *Ring ring* Hello. Can I have your Social?
+This year, after several years of pleading from the DerbyCon attendees, they decided to host this year's conference at the Marriott Hotel in Downtown Louisville, a much needed step-up from its previous, smaller venues. Even after moving up to a much bigger hotel where the event took up two whole floors of the lobby, it was still packed with security enthusiasts, hackers, and tech-curious individuals all over the world. Having said that, it was extremely encouraging to see Benjamin (@GentilKiwi) Delpy, the infamous developer of MimiKatz, attending as a keynote speaker to kick off the conference.  
 
-My biggest highlights of the con definitely took place on the first day, packed with five of the most interesting and valuable talks of the year so far. I started off the day with a talk by Chris Hadnagy and 
-Cat Murdock from Social-Engineer LLC. I'm not the most gifted social engineer, so I figured this would be a good place to start with their talk on 
-"The IRS, HR, Microsoft, and your Grandma: What They All have in Common." Though mostly a venture into the statistics behind social engineering and your liklihood of success based on their last three years of
-Vishing attacks against their clients. Even though the technical bits were missing, this talk was remarkably eye opening in terms of what pretexts work against what industries, what day is the most ideal to
-launch a vishing attack against your target, and what genders are better at (and more susceptible) to social engineering by phone. 
+### *Ring ring* Hello. Can I have your Social?
 
-## EternalBlue -- not done with you yet.
+My biggest highlights of the con definitely took place on the first day, packed with five of the most interesting and valuable talks of the year so far. I started off the day with a talk by Chris Hadnagy and Cat Murdock from Social-Engineer LLC. I'm not the most gifted social engineer, so I figured this would be a good place to start with their talk on "The IRS, HR, Microsoft, and your Grandma: What They All have in Common." I found this talk highly interesting, even though it was mostly about math. It gave some amazing insight and statistics behind social engineering and your likelihood of success based on their last three years of vishing attacks against their clients. Even though the technical bits were missing, this talk was remarkably eye opening in terms of what pretexts work against what industries, what day is the most ideal to launch a vishing attack against your target, and what genders are better at (and more susceptible) to social engineering by phone. For those among you where this is a dedicated part of your attack methodology, I highly encourage watching this talk. It can certainly give you an edge with the surprising information gleaned with 3 years of data analyzed by some of the world's more widely known social engineers.  
 
-Following up with a talk from @Zerosum0x0, on his research into the MS17-010 vulnerabilities, specifically EternalBlue, really tickled my exploit-developer pickle. The technical details behind how this exploit
-was introduced into the Windows SMB service have always eluded me. Nevertheless, it's just something I wanted to know but could never understand. For anyone else in my position, Zerosum did an awesome job
-explaining, visualizing, and most of all demonstrating the cause and procedure that make the exploit possible from three different angles. Given how old SMBv1 is, I was always surprised with how long this 
-vulnerability went unnoticed. Having gotten an eye-opening glimpse into just how subtle the flaw was absolutely changed my perspective. At the same time, seeing how challenging it was to achieve that exploit
-and the fact that I feel like I actually understood some of it gave me some fuel to my fire to reall begin chasing these kinds of exploits. Believe it or not, they still exist in all kinds of places, and 
-thanks to the next talk I saw, I think I know where I'll begin my search.
+### EternalBlue -- not done with you yet.
 
-## Windows Active Directory ... Yep, still broke. :P
+I followed this up with a talk from @Zerosum0x0, on his research into the MS17-010 vulnerabilities, specifically EternalBlue, really tickled my exploit-developer pickle. The technical details behind how this exploit was introduced into the Windows SMB service have always eluded me. Nevertheless, it's just something I wanted to know but could never understand. For anyone else in my position, Zerosum did an awesome job explaining, visualizing, and most of all demonstrating the cause and procedure that make the exploit possible from three different angles. Best of all, the breakdown of the assembler and specifying the vulnerable lines of code in the SMBv1 protocol that made these attacks possible tied all the knots for me.  
 
-Next up was a joint talk by Will Schroeder (@Harmj0y), Lee Christiensen (@Tifkin_) and Matt Nelson (@Enigma0x3), talking about their latest escapades and "The Unintended Risks of Trusting Active Directory."
-No exhaggeration - this was my favorite talk of the year. To summarize, the talk goes into the details of what actually happens when you introduce a system to a domain, and what that actually does in terms of
-"adjusting" each individual system's security. This talk ties heavily into their previous year's talk on "An ACE up the Sleeve" on security descriptors and the authorization model of the Windows Operating System.
-Essentially, it boils down to lists of what entities are allowed to touch/control/administrate certain services. Because Local Admins are (by default) given access to all the things, this tends to be our sole
-focus when trying to escalate. However, by demonstrating interesting flaws in the authorization model, combined with weak service protections, you can do some interesting things like implanting file-less backdoors, 
-escalate privileges through service accounts, and naturally, achieve a total compromise of the host using nothing more than something as innocuous a "print queue request" to execute Mimikatz and establish
-persistence. By far, my favorite talk, and I know exactly where my focus for the year is going now thanks to them. Huge props to @Harmj0y, @Tifkin_, and @Enigma0x3 for their work this year with SpecterOps. :)
+Given how old SMBv1 is, I was always surprised with how long this vulnerability went unnoticed. Having gotten an eye-opening glimpse into just how subtle the flaw was absolutely changed my perspective. At the same time, seeing how challenging it was to achieve that exploit and the fact that I feel like I actually understood some of it gave me some fuel to my fire to really begin chasing these kinds of exploits. Believe it or not, they still exist in all kinds of places, and thanks to the next talk I saw, I think I know where I'll begin my search.  
+
+### Windows Active Directory ... Yep, still broke. :P
+
+Next up was a joint talk by Will Schroeder (@Harmj0y), Lee Christiensen (@Tifkin_) and Matt Nelson (@Enigma0x3), talking about their latest escapades and "The Unintended Risks of Trusting Active Directory." No exhaggeration - this was my favorite talk of the year. To summarize, the talk goes into the details of what actually happens when you introduce a system to a domain, and what that actually does in terms of "adjusting" each individual system's security. This talk ties heavily into their previous year's talk on "An ACE up the Sleeve" on security descriptors and the authorization model of the Windows Operating System. Essentially, it boils down to lists of what entities are allowed to touch/control/administrate certain services.  
+
+Because Local Admins are (by default) given access to all the things, this tends to be our sole focus when trying to escalate. However, by demonstrating interesting flaws in the authorization model, combined with weak service protections, you can do some interesting things like implanting file-less backdoors, escalate privileges through service accounts, and naturally, achieve a total compromise of the host using nothing more than something as innocuous a "print queue request" to execute Mimikatz and establish persistence. By far, my favorite talk, and I know exactly where my focus for the year is going now thanks to them. Huge props to @Harmj0y, @Tifkin_, and @Enigma0x3 for their work this year with SpecterOps. :)  
 
 ## IronPython ... omfg you weren't kidding
 
 I concluded the day with a talk I'd been curious about since I had seen it in the program, "IronPython ... omfg" by Marcello Salvatti, who you may know better as @Byt3bl33d3r, the developer of other glorious
-tools such as CrackMapExec and DeathStar (aka the DA Button). Initially, while I had heard of IronPython, I never was very interested in it. Honestly, I didn't even know how it differed from my native C Python,
-so I never paid it any attention. Boy, was I ever wrong. So, the short version is that IronPython is the C# implementation of python, built using the .NET Framework in Windows. Because of this IronPython has some useful features for windows developers who like the beautiful simplicity of Python but also need .NET. Since I have lived on Linux since 2012, this explains why I never considered it. Having heard @byt3bl33d3r's talk, my perspective has completely shifted to where I intend to start playing with this **IMMEDIATELY**. The reason is because, like many red teamers who have come to rely upon native 
-Windows tools like Powershell to perform local host recon and achieve privilege escalation in Windows have begun to see Microsoft and AV vendors begin adding protections that are absolutely kicking our asses. 
-This doesn't mean that powershell is over for us yet but... it's in its twilight years. Executing malicious code in Powershell is definitely getting harder, so it's time to start looking for new means to 
+tools such as CrackMapExec and DeathStar (aka the DA Button). Initially, while I had heard of IronPython, I never was very interested in it. Honestly, I didn't even know how it differed from my native C Python, so I never paid it any attention. Boy, was I ever wrong.  
+
+So, the short version is that IronPython is the C# implementation of python, built using the .NET Framework in Windows. Because of this IronPython has some useful features for windows developers who like the beautiful simplicity of Python but also need .NET. Since I have lived on Linux since 2012, this explains why I never considered it. Having heard @byt3bl33d3r's talk, my perspective has completely shifted to where I intend to start playing with this **IMMEDIATELY**. The reason is because, like many red teamers who have come to rely upon native Windows tools like Powershell to perform local host recon and achieve privilege escalation in Windows have begun to see Microsoft and AV vendors begin adding protections that are absolutely kicking our asses.  
+
+This doesn't mean that powershell is over for us yet but... it's in its twilight years. Executing malicious code in Powershell is definitely getting harder, so it's time to start looking for new means to
 gain back some lost ground. As it looks, IronPython may be that new secret weapon.
 
 The talk begins with Marcello's long, frustrating journey with trying to find something that *just works* when trying to execute some code to get some juicy shells while on those elusive engagements. After
-much research and head-bashing, he is led to IronPython which I've said, is built using the .NET framework. Although several versions behind CPython, it still provides us some unique access and extreme versatility 
-thanks to this access to an essential component of the new and improved Windows OS. Essentially, thanks to Marcello, the hard work of creating a "native" environment to execute iron python is done. This is 
-accomplished by hooking the IPY (IronPython Engine) within .NET framework, then "sandboxing" a secondary IPY within the first IPY. This approach gives the attacker both access to the .NET framework through IronPython,
-and also a layer of separation when executing subsequent tasks. All this has been done with the latest release of [SilentTrinity](https://github.com/byt3bl33d3r/SilentTrinity) which you can download and
-contribute to on GitHub. Believe me, I plan on playing with this **a lot** in the coming weeks. Time to brush up on some C# :)
+much research and head-bashing, he is led to IronPython which I've said, is built using the .NET framework. Although several versions behind CPython, it still provides us some unique access and extreme versatility thanks to this access to an essential component of the new and improved Windows OS. Essentially, thanks to Marcello, the hard work of creating a "native" environment to execute iron python is done.
+
+This is accomplished by hooking the IPY (IronPython Engine) within .NET framework, then "sandboxing" a secondary IPY within the first IPY. This approach gives the attacker both access to the .NET framework through IronPython, and also a layer of separation when executing subsequent tasks. All this has been done with the latest release of [SilentTrinity](https://github.com/byt3bl33d3r/SilentTrinity) which you can download and contribute to on GitHub. Believe me, I plan on playing with this **a lot** in the coming weeks. Time to brush up on some C# :)
 
 ## Wrap up
 
 DerbyCon 2018, being one of the biggest (and my first), was an absolute blast. Moreover, the talks were amazing. I'll plan on continuing to watch many more of them as they land on IronGeek (props to
-Adrian Crenshaw (@irongeek_adc) for your camera work). It's been a really hectic summer that is finally beginning to wind down. Thanks to the added inspiration gathered from the infectious, likeminded individuals 
-I connected with in Louisville, I plan on dropping far more contributions and exploring all the links, notes, and knowledge gained this past week. Thanks again to the TS staff for putting it together and 
-setting up an awesome con.
+Adrian Crenshaw (@irongeek_adc) for your camera work). It's been a really hectic summer that is finally beginning to wind down. Thanks to the added inspiration gathered from the infectious, likeminded individuals I connected with in Louisville, I plan on dropping far more contributions and exploring all the links, notes, and knowledge gained this past week. Thanks again to the TS staff for putting it together and setting up an awesome con.
