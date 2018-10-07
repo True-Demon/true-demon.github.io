@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "What I Learned at DerbyCon"
+date:   2018-10-07
+categories: 
+- misc
+---
+
 It's been an exhausting week while couch-camping my way through another conference, but the sleep debt and neck-pain have been well worth it. Before I get into the details of what I learned 
 while in Louisville, Kentucky for my first DerbyCon, a little about the conference itself. I have to admit that the TrustedSec folks know how to put on a good conference, this having been my third TS-hosted
 con that I've been to. After speaking at BSidesCLE earlier this summer on my last tool release, [Raindance](https://github.com/true-demon/raindance), DerbyCon was massive. This year, after several years of 
