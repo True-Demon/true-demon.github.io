@@ -1,14 +1,11 @@
 ---
-layout: post
 title:  "DefCon from the Eyes of a Newb"
-date:   2018-08-16
-categories:
-- misc
+layout: single
 ---
 
-## Welcome to DefCon 26
-
 I had the opportunity and pleasure of getting to take a trip to Las Vegas during one of the largest hacking and security conferences in the world for the first time this past week. DefCon has always been one of those "Yeah, it'd be nice, but it'll never happen" kinds of experiences, or so I used to think. Thanks to the noble sacrifice of one heroic co-worker, who gave his plane seat that others may go forth in his stead, I had that chance.
+
+## Welcome to Defcon
 
 Although I consider myself to be reasonably experienced in penetration testing, I anticipated the entire trip to be a profoundly humbling experience. I've always believed that if you want to learn from others, you need to approach them with the understanding that you don't know squat. I can honestly say, that attitude paid off in massive dividends as I walked among some of the brightest minds in Computer Science and discussed my favorite subjects with them. Defcon 26 was my first DefCon ever, and I'm determined to return again with much more to offer than what I took this time around. For the sake of doing it the justice it deserves, I'm here to tell everyone about the magical, tourist-trap wonderland of Las Vegas through the eyes of a bright-eyed 1337 wannabe in the midst of the chaos of the largest hacker event he has ever seen.
 

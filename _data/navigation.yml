@@ -1,0 +1,24 @@
+# main links
+main:
+  - title: "Projects"
+    description: "Cool stuff I've worked on"
+    url: /projects/
+    children:
+      - title: "King Phisher"
+        description: "A client-server phishing tool for pentesters"
+        url: "https://github.com/securestate/king-phisher"
+      - title: "Raindance"
+        description: "A tool for enumerating Office 365"
+        url: "https://github.com/true-demon/raindance"
+
+  - title: "About"
+    description: "Meet the Author"
+    url: /about/
+  - title: "The Hacker Ethos"
+    description: "My book & author history"
+    url: /hacker-ethos/
+  - title: "Post Archive"
+    description: "For more fun reads ..."
+    url: /archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

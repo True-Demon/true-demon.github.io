@@ -1,12 +1,12 @@
 ---
-layout: post
 title:  "My OSCP Journey Pt.1 - How NOT to take the OSCP"
-date:   2018-10-23
-featured-img: /images/posts/offsec-try-harder.png
-categories:
-- misc
-- OSCP
+layout: single
+author_profile: true
+toc: true
 ---
+
+{% include figure image_path="/images/posts/offsec-try-harder.png" type=center %}
+
 
 I feel like this post has been long overdue given how long I've been chasing this dream of earning my OSCP. I officially started the course in February of 2017. So far, <u>I have taken and failed the exam a total of three times</u> despite approaching each attempt feeling profoundly confident that I would pass. Having proven myself wrong for the third time, I'm not going into this upcoming, fourth attempt with any assumptions anymore. I'm too cynical and exhausted by repeated failure for that. I've been humbled each time, so now I'm going to attack it with a different attitude. I'm completely starting over.
 
@@ -91,7 +91,7 @@ I spent well over a week recovering physically and mentally ... and emotionally 
 
 I told you at the beginning that this would be about embracing failure, so I'm going to be up front and lay all of mine on the table for you. Ultimately, __I made seven major errors__ that led to my inevitable failure during my first attempt. If you can avoid making them yourself, you will be better prepared.
 
-### **1. I ignored the PWK course's No.1 recommendation**  
+**1. I ignored the PWK course's No.1 recommendation**  
 > **"USE THE VM WE GAVE YOU!""**  
  --  OSCP devs   
 
@@ -112,14 +112,14 @@ I told you at the beginning that this would be about embracing failure, so I'm g
 
   Just tell yourself... ![](/images/posts/idontneedit.jpg){:width="200px"}
 
-### 2. **I did not plan enough downtime to dedicate to the course.**
+2. **I did not plan enough downtime to dedicate to the course.**
   This is probably the primary cardinal sin of all who attempt the OSCP and failed. Life often gets in the way, but for a lot of us, we allow ourselves to get lazy or distracted from our goal. The OSCP is no joke, and if you allow yourself to get overconfident, think you've got it in the bag, and don't give it the amount of study it deserves, you will inevitably lose.
 
   - At a minimum, I should have been spending 4 hours per day in the labs. Instead, I maybe did a handful of hours per week on average.
   - If you are in school like I was, put it on hiatus or wait until you're finished. You just can't do both...
   - If you are working a full time job like I was, you need to make sacrifices. No games, no playtime. There are only the labs. That's your life now until your exam day.  
 
-### 3. **I did not spend enough time learning how to enumerate and escalate.**
+3. **I did not spend enough time learning how to enumerate and escalate.**
   This may seem like an obvious one, but learn the tools they've given you. Many of the machines in the labs and the exam force you to enumerate *several* services. If you spend all of your time digging for an easy 1-2-3 RCE exploit, you're only going to hit maybe 10% of the labs, and you will definitely fail your exam.
 
   Worse yet, most of the exam boxes will require you to escalate your privileges in some way. In the real world, this can be just as difficult or more-so than what you experience in the OSCP exam. You *must* be capable of using tools that pale in comparison to the functionality of Metasploit and other escalation tools and still be equally successful.
@@ -135,13 +135,13 @@ I told you at the beginning that this would be about embracing failure, so I'm g
 
    In addition, any of the major things you do in Linux escalation, you should learn how to do from Windows command line, like file & string grepping, listing processes, string concatenation, echoing streams to files, listing users, groups, shares, permissions and running services/processes. All of that comes into play come exam time.
 
-### 4. **I tried to be an Army of One**
+4. **I tried to be an Army of One**
   Instead of looking to other people for advice, going to the OSCP forums, or asking questions in the IRC, I tried to be the cool kid who could figure it out all by his bad-ass self. Well, I didn't, and I failed miserably in my first attempt because I was too cool for school. Don't pretend you'll get it on your own, because if you learn from your predecessor's mistakes, you can avoid making them yourself and save yourself a lot of heartache (and money.)
 
   Take the time to set yourself up in the OSCP's official forums, IRC, and the [NetSec Focus OSCP Slack channel](https://netsecfocus.herokuapp.com/). The information there is invaluable, and you can always ask questions (or look at the questions of others) when you eventually get stuck. Sometimes just talking to someone about it will kickstart something in your mind that leads you in the right direction. I can speak from experience that nobody wants to spoil it for you, so don't expect people to just give you the answer. You should neither be nor expect to be spoon-fed. That's now how you get good at hacking. As Yoda put it ...
   > Do, or do not. There is no "Try."
 
-### 5. **I attacked the network like a to-do list, not as a pentester**
+5. **I attacked the network like a to-do list, not as a pentester**
 
   I made this mistake repeatedly throughout the course, but the lab is a wide open network meant to simulate a realistic environment. Even though you'll probably start by listing targets according to their IP address, don't be tempted to attack them in that order.
 
@@ -155,7 +155,7 @@ I told you at the beginning that this would be about embracing failure, so I'm g
 
   You still need msfvenom to generate shellcode, but the majority of the framework will be off limits to you, so learn how to survive without it. When your box of survival gear gets taken away during the exam, all you're going to be left with are your rocks and sticks, so you'll need to learn to craft your own tools in the wild anyway. Best to be prepared.
 
-### 6. **I did not schedule in advance**
+6. **I did not schedule in advance**
 
   By the time I scheduled my exam, my lab access was coming to an end. Like a moron, I thought I could just schedule it for the following week no problem. As it turns out, the exams for OSCP are typically booked for upwards of a month from the current date, so you **MUST** schedule it in advance.
 
@@ -165,7 +165,7 @@ I told you at the beginning that this would be about embracing failure, so I'm g
 
   Don't waste the chance and go for the exam, even if you don't feel ready. Taking the exam is the best way to prepare for it, and although it's not impossible to pass the first time, the odds indeed are against you.
 
-### 7. **I was over-caffeinated, over-confident, and completely exhausted**
+7. **I was over-caffeinated, over-confident, and completely exhausted**
 
   This mistake will often lead even good students to snatch defeat from the jaws of victory. The OSCP is a monster of an exam, and you will likely spend almost every hour trying to get the minimum 70 points unless you prepared like a champion. Like many others, I dug my own grave by
   1. Scheduling my exam late in the day (any time after 12pm is probably a bad idea)

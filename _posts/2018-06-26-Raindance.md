@@ -1,11 +1,11 @@
 ---
-layout: post
 title:  "Raindance: Raining Recon from the Microsoft Cloud"
-date:   2018-06-26
-categories: 
-- tools 
-- osint
+layout: splash
+classes:
+  - dark-theme
+  - landing
 ---
+
 
 If you've been performing penetration tests for the last several months, then you may have encountered Office 365 in your travels. Office 365 (O365) for the sake of clarity, is the latest and greatest Cloud solution for various popular Microsoft services including Exchange, Sharepoint, Database management, and a cloud-based active directory serviced called Azure Active Directory. It's a great service for businesses of all sizes, except that it just a bit too user-friendly for its own good.
 
@@ -77,7 +77,7 @@ Say 'Yes to All' to the prompts to indicate you want to install all module featu
 
 And just like that, you've got access to raindance.
 
-Immediately, raindance will offer a login prompt for you to log into a target O365 tenant. One thing I will point out here is that logging into Office 365 is not an exact science, and there are a lot of things that can get in the way like 2-factor authentication, X.509 certificates, white-listing controls, and those *very* smart admins who decided their users don't need Powershell, and so they disable access to O365 via powershell by default. 
+Immediately, raindance will offer a login prompt for you to log into a target O365 tenant. One thing I will point out here is that logging into Office 365 is not an exact science, and there are a lot of things that can get in the way like 2-factor authentication, X.509 certificates, white-listing controls, and those *very* smart admins who decided their users don't need Powershell, and so they disable access to O365 via powershell by default.
 
 *Psst -- Admins, I hope you're paying attention ;)*
 
@@ -97,4 +97,3 @@ I leave it to the end-user to experiment with the tool and enjoy exploring the p
 *Go make it Rain :)*
 
 <p style="text-align:right;"><b>-- True Demon</b></p>
-
