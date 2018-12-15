@@ -109,7 +109,6 @@ author:
   avatar           : "/images/head.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Lost in the Web"
-  email            : "truedemon@riseup.net"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
