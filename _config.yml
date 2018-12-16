@@ -115,7 +115,7 @@ author:
       url: mailto:truedemon@riseup.net
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.devilsec.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/TRUExDEMON"
@@ -125,9 +125,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/true-demon"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "KeyBase"
+      icon: "fab fa-fw fa-keybase"
+      url: "https://keybase.io/truexdemon"
 
 # Site Footer
 footer:
