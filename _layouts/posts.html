@@ -4,6 +4,8 @@ layout: archive
 
 {{ content }}
 
+<div class="just-comments" data-apikey="41cb92f7-d498-40ec-b98e-96d5a4a3070e" ></div><script async src="https://just-comments.com/w.js"></script>
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
