@@ -7,7 +7,9 @@ author_profile: true
 ---
 <img src="/images/hacker-ethos-cover.jpg" width="400" align="right" style="padding: 8px"/>
 
-**The Hacker Ethos** is a condensed, easy-to-read guidebook on the subject of Ethical Hacking and Penetration Testing, the legal procedure for testing computer security by simulating real cyber attacks.
+# About The Hacker Ethos
+
+_The Hacker Ethos_ is a condensed, easy-to-read guidebook on the subject of Ethical Hacking and Penetration Testing, the legal procedure for testing computer security by simulating real cyber attacks.
 
 Written by an expert in Computer Science and Information Security with ten years of experience in his field at the time of writing, The Hacker Ethos was specifically designed to be put in the hands of the beginner-level hacker, IT professional, and hopeful IT security researcher.
 
@@ -28,6 +30,11 @@ This book has been hailed by readers as "the best and easiest beginner's guide t
 Its primary lesson is "teach you how to teach yourself," an invaluable skill that drives the field of technology and security more than any other. A hacker who cannot learn on his own will never last.
 
 This book requires strong dedication and an insatiable desire to learn. Make no mistake, its contents will not be simple by any means, as much as it strives to make them easy to understand. There is no "hacking tools that does it all" and there is no magic trick to learning everything.
+
+## Book Formats & How to Purchase
+
+The book is available in both electronic and paperback. The standalone e-book PUB format can be purchased at [Lulu Press](http://www.lulu.com/shop/true-demon/the-hacker-ethos/ebook/product-22494335.html)
+Amazon Kindle and paperback copies may be purchased at the [Amazon sales page](https://www.amazon.com/Hacker-Ethos-Beginners-Ethical-Penetration/dp/1523764368)
 
 ## History of the book & its publication
 I published *The Hacker Ethos* shortly after I ended my struggle to break into the industry when I became a professional penetration tester. The book was intended to simply be a handful of pages with some helpful tips for beginners to steer them in the right direction while studying to become penetration testers and eventually earn the certifications that would help them along in their career.
