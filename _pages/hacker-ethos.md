@@ -5,7 +5,10 @@ permalink: /hacker-ethos/
 layout: splash
 author_profile: true
 ---
-<img src="/images/hacker-ethos-cover.jpg" width="400" align="right" style="padding: 8px"/>
+<figure style="display:inline-block; float:right; width: 400px;">
+<a href="https://www.amazon.com/Hacker-Ethos-Beginners-Ethical-Penetration/dp/1523764368"><img src="/images/hacker-ethos-cover.jpg" width="400" align="right" style="padding: 8px"/></a>
+<figcaption style="text-align: center; font-family:arial; font-size: 12pt;"><a href="https://www.amazon.com/Hacker-Ethos-Beginners-Ethical-Penetration/dp/1523764368">Click to Purchase</a></figcaption>
+</figure>
 
 # About The Hacker Ethos
 
@@ -41,6 +44,6 @@ I published *The Hacker Ethos* shortly after I ended my struggle to break into t
 
 As it grew, readers asked I continue to contribute advice to the (at the time) essay. It grew to 100 pages within the first three months of writing it, up to which point I had been publishing its progress freely on the clear net security forum, *HackForums.net*. The book quickly outgrew its original intent, and after deciding it would become a published book, it took another eight months to completely write, review, revise, and self-publish it.
 
-In the end it cost over $2,000 in the expenses to complete the work, not accounting for my time spent writing it. Though difficult, publishing my first book in my favorite subject on computers has been an extremely rewarding and gratifying experience. It was always my goal to help teach others how to learn from and avoid my mistakes, build on the knowledge I already had, and help bring others into the fold.
+Remarkably, after some personal sacrifice and a year of writing, _The Hacker Ethos_ was finally successfully approved for publication. Though difficult, publishing my first book in my favorite subject on computers has been an extremely rewarding and gratifying experience. It was always my goal to help teach others how to learn from and avoid my mistakes, build on the knowledge I already had, and help bring others into the fold.
 
 It's no secret the InfoSec field has historically been an extremely difficult industry to break into, and that was part of my motivation for writing *The Hacker Ethos*. I'm glad that by writing this book, I helped make that journey a little easier for some of the eager newbies with that same drive. It's been an incredible experience, and I will always be thankful to the readers and people who supported my writing.
