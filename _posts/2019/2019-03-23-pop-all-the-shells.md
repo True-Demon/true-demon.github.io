@@ -1,7 +1,9 @@
 ---
-layout: "post"
+layout: "single"
 title: "Pop all the shells: A guide for hackers living off the land"
 date: "2019-03-23 14:16"
+author_profile: true
+toc: true
 ---
 
 During my OSCP Journey series, I mentioned a few pitfalls I experienced, primarily surrounding how to deliver, execute, and maintain stable shells throughout the test. I have also taken note that actually getting shells to execute during real-world pentests has grown a lot more difficult as AV solutions and heuristic detection of malware has slowly begun to grow more effective. Such is the way with this cat and mouse game we play with blue-teamers and Antivirus vendors.
