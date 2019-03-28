@@ -6,6 +6,8 @@ author_profile: true
 toc: true
 ---
 
+{% include figure image_path="/images/posts/heart-shells.png" type=center %}
+
 During my OSCP Journey series, I mentioned a few pitfalls I experienced, primarily surrounding how to deliver, execute, and maintain stable shells throughout the test. I have also taken note that actually getting shells to execute during real-world pentests has grown a lot more difficult as AV solutions and heuristic detection of malware has slowly begun to grow more effective. Such is the way with this cat and mouse game we play with blue-teamers and Antivirus vendors.
 
 However, there still remain some tried and true methods to obtaining shells on modern operating systems that are always going to be hard to stop completely. The trick to getting stable shells is by keeping things simple and using the native, built-in tools that the OS provides us with. You see, AV has to walk a very thin tight-rope between failing to detect malware and blocking legitimate activity. In a lot of ways, their job is several orders of magnitude more difficult than attackers because we only need to find one gap. They have to find both the gap and make sure they can positively identify a malicious action without completely blacklisting it wholesale in a way that blocks legitimate activity and frustrates the user.
