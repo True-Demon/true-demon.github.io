@@ -54,7 +54,7 @@ With that said, **I strongly advise having a backup computer!** You'll suffer le
 
 ### Final Scores
 
-The final obstacle I ran into was with Privilege Escalation. It wasn't that the escalations were too difficult, but rather I did not have all of the different techniques down to a science at that point. For that reason, even though I got access to all but one box each time, I was unable to gather enough points because I missed at least one crucial escalation vulnerability.
+The final obstacle I ran into was with Privilege Escalation. It wasn't that the escalations were too difficult, but rather I did not have all of the different techniques down to a science at that point. Even though I got access to all but one box each time, I was unable to gather enough points because I missed at least one crucial escalation vulnerability.
 
 My fourth attempt left me with only one privilege escalation standing between me and victory, before I ran out of time. I felt as though I was only minutes away from the escalation as well, which is perhaps the most frustrating failure I had experienced to date. So close and yet so far.
 

@@ -6,7 +6,7 @@ author_profile: true
 toc: true
 ---
 
-{% include figure image_path="/images/posts/serious-keyboarding.jpg" type=center %}
+{% include figure image_path="/images/posts/panic-button.jpg" type=center %}
 
 If I were to summarize what leads to success on the OSCP in a single word, it would be **persistence**. With each attempt I made at the exam, things got a little easier. For whatever reason, my way of passing the OSCP came through brute-force, repeated iteration, a _lot_ of screaming into the pillow, and absolute brick-like stubbornness. I understand that most people shouldn't _need_ as many attempts as I have but... here I am -- still trying.
 
