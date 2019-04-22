@@ -56,7 +56,9 @@ While I was working on Raindance in its beta stage, I presented it to my co-work
 
 I had the opportunity to meet @Carnal0Wnage the day before the con, and he did a great job of calming my fears. I was under the impression for the longest time that it would just be another "meh" tool. In fact, he had given me some pretty sweet ideas about what else could be done with the power that Powershell offered to us as attackers in the Cloud. It's a bit early yet to start pulling back curtains and revealing new findings, but I'm optimistic enough to say...they were some pretty frickin' cool ideas. I'll probably throw up another blog about it in the near future once the functionality is implemented.
 
-Anyway, I got the chance to present at BSides Cleveland on June 23, 2018 and it was a hell of an experience. Beers flowing, hackers pwning, good times had by all. The talk went better than I could have hoped for, and I'm looking forward to presenting again. If you would like to catch the video, you can find it on YouTube here on Adrian Crenshaw's channel: [Raindance: Raining Recon from the Microsoft Cloud](https://www.youtube.com/watch?v=VHPZ2YU351M)
+Anyway, I got the chance to present at BSides Cleveland on June 23, 2018 and it was a hell of an experience. Beers flowing, hackers pwning, good times had by all. The talk went better than I could have hoped for, and I'm looking forward to presenting again. If you would like to catch the video, you can find it on YouTube here on Adrian Crenshaw's channel
+
+{% include video id="VHPZ2YU351M" provider="youtube" %}
 
 ## Usage
 
