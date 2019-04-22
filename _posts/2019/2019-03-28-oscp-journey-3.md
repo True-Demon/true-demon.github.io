@@ -4,7 +4,6 @@ title: "OSCP Journey Pt.3 - Preparation Tips and Avoiding Mistakes"
 date: "2019-03-28 12:24"
 author_profile: true
 toc: true
-classes: wide
 ---
 
 {% include figure image_path="/images/posts/panic-button.jpg" type=center %}
