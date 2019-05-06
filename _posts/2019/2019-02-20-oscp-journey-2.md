@@ -22,7 +22,7 @@ One of the things I did immediately once I got the chance was I scheduled my exa
 
 I subsequently attempted the OSCP three more times in the year following my first failure and still had not passed. Although I cannot comment precisely on the boxes themselves or the services I encountered, I think I can safely talk about some of the frustrating obstacles.
 
-During each of these attempts at the exam were my inability to step back from my tunnel vision and my failure to properly enumerate all parts of a machine to the point where I knew everything about them. I had a healthy mix of Windows and Linux systems between both exams, but one box (worth 25 points) in particular which I got on both was particularly frustrating and nigh impenetrable for me. Perhaps my biggest mistake was **over-thinking** the boxes.
+During each of these attempts at the exam were my inability to step back from my tunnel vision and my failure to properly enumerate all parts of a machine to the point where I knew everything about them. I had a healthy mix of Windows and Linux systems between both exams, but one box in particular which I got on both was particularly frustrating and nigh impenetrable for me. Perhaps my biggest mistake was **over-thinking** the boxes.
 
 It's true what they say that the OSCP does not demand you be a genius. Nothing outlandish is expected of you. You are expected to do your own research, but the concepts covered in the courseware and labs essentially cover all of the fundamentals. If you have blitzed through the labs, all the way through to the Admin network, then owning the exam should be no sweat for you. Look for the obvious things, and you're more likely to succeed.
 
@@ -58,13 +58,13 @@ The final obstacle I ran into was with Privilege Escalation. It wasn't that the 
 
 My fourth attempt left me with only one privilege escalation standing between me and victory, before I ran out of time. I felt as though I was only minutes away from the escalation as well, which is perhaps the most frustrating failure I had experienced to date. So close and yet so far.
 
-In the end, on my second, third and fourth exam attempts, I estimate that I earned 65 points, assuming local-access to each 20-point box was worth 10 points for making it half way. I don't know whether that is how the scoring scale works, since OffSec keeps that information under tight wraps, but I can't help but speculate.
+In the end, on my second, third and fourth exam attempts, I can only estimate that I earned somewhere around 65 points. I don't know how the scoring scale works, since OffSec keeps that information under tight wraps, but I can't help but speculate.
 
 Each time, I came **so** close but just couldn't get over the finish line.
 
 I can't say definitively whether I was unprepared for each subsequent attempt. I came so close to passing each time that it almost felt like being cheated in a way, especially the fourth attempt. Part of me realizes that your results can change depending on the types of boxes you are given for each exam attempt.
 
-Sometimes you get lucky and see the same ones again, sometimes you get a full scramble of new hosts you've never seen. Some are harder than others to pop, even among the 25-point boxes. Sometimes the path to root is one of the first methods you check for, sometimes it's the last think you'd think to try.
+Sometimes you get lucky and see the same ones again, sometimes you get a full scramble of new hosts you've never seen. Some are harder than others to pop. Sometimes the path to root is one of the first methods you check for, sometimes it's the last thing you'd think to try.
 
 That small measure of luck might make a 5% difference, but I know for a fact that the rest of it is all in your persistence, determination, and preparation -- big emphasis on preparation.
 
