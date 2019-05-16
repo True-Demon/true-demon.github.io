@@ -60,6 +60,8 @@ Anyway, I got the chance to present at BSides Cleveland on June 23, 2018 and it 
 
 {% include video id="VHPZ2YU351M" provider="youtube" %}
 
+[Download the Slides!](/assets/presentations/RainDance.pptx)
+
 ## Usage
 
 Raindance is a powershell module that can be imported into any Windows machine with Powershell v5.0 and above. Microsoft has promised that *eventually* they will be implementing support for Powershell Core v6.0 which will be Linux compatible, but for now, Windows is an inherent requirement.
