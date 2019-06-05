@@ -24,7 +24,7 @@ To my horror when I finally received the email, I saw the same heart-crushing st
 
 # The FINAL final attempt
 
-After falling short during my previous attempt at the OSCP due to failing to properly extrapolate my process during the report, I was resolved to succeed on this one final attempt. Like several exam attempts before, I prepared with a checklist and all of my scripts ahead of time. I did not bother buying more time in the labs as I had already gone through all the final boxes and knew I had the knowledge. After all, I had
+After falling short during my previous attempt at the OSCP due to failing to properly extrapolate my process during the report, I was resolved to succeed on this one final attempt. Like several exam attempts before, I prepared with a checklist and all of my scripts ahead of time. I did not bother buying more time in the labs as I had already gone through all the final boxes and knew I had the knowledge. After all, I had blown through 4 of the boxes in under half a day. All I had to do was to not screw up the report.
 
 When I finally had the exam vpn opened up to me for my final exam, I never tried harder in my life. I was sick of failing this exam and hearing the words "try harder" all the time. Hearing that mantra made me want to vomit, and I never wanted to have to hear it again after that day.
 
@@ -40,13 +40,13 @@ Finally, coming up on the 16th hour, I closed my exam and submitted the report. 
 
 Fast forward three days later after barely any sleep because I was half-expecting to get another "you failed" nasty-gram, the results came.
 
-![Congratulations, You Tried Harder](/images/oscp-victory.png)
+![Congratulations, You Tried Harder](images/oscp-victory.png)
 
 I remember reading the email in the evening and just falling back into my bed, still exhausted from the exam just two days prior, and breathing a sigh of relief. More than anything, I was just glad it was over. I passed along the news and promptly passed out and let the reality of the exam result sink in over night. The feelings of satisfaction at having finally succeeded at the OSCP after repeatedly failing so many times did not come until after I came to terms with the fact that I would not have to grapple with any future decisions whether to try again.
 
 # Reflecting on the PWK course and OSCP
 
-Without a doubt, the OSCP was the most difficult course I'd ever attempted in my entire life. I never spent so long wanting something so badly as that stupid shiny piece of paper. The skills I developed while experimenting in the labs, crafting my own tools, and repeatedly ~~torturing~~ pushing myself to try harder have made all the difference in how I approach penetration testing. Before beginning my journey, I approached penetration testing like a math problem. I would stare at what was in front of me and go digging through my book of formulas that were supposed to solve everything. If I didn't find a formula/tool that worked, I just moved along.
+Without a doubt, the OSCP was the most difficult course I'd ever attempted in my entire life. I never spent so long wanting something so badly as that stupid shiny piece of paper. The skills I developed while experimenting in the labs, crafting my own tools, and repeatedly ~torturing~ pushing myself to try harder have made all the difference in how I approach penetration testing. Before beginning my journey, I approached penetration testing like a math problem. I would stare at what was in front of me and go digging through my book of formulas that were supposed to solve everything. If I didn't find a formula/tool that worked, I just moved along.
 
 I suddenly realized that my approach has drastically changed since three months ago when I passed my exam. I don't feel satisfied with easy wins anymore, and I don't just skip a host when I don't find something at first. I have grown more methodical in my approach, digging for things that demand more of my attention while the easy/automated stuff runs in the background. I take what vulnerability scanners and automated tools tell me with a pinch of salt, and I have a tendency to explore farther and probe deeper into subjects I never paid any attention to before, even subjects that I know nothing about. Somehow the OSCP has changed my way of thinking. I have always said that "there is no such thing as unhackable," but I never made an effort to back up that statement with action.
 
