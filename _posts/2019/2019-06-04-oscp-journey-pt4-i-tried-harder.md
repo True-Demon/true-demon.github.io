@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "single"
 title: "OSCP Journey Pt4. - I Tried Harder"
 date: "2019-06-04 17:00"
 auhor_profile: true
