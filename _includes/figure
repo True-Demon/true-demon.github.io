@@ -5,7 +5,8 @@
     {% else %}
       "{{ include.image_path | relative_url }}"
     {% endif %}
-    alt="{% if include.alt %}{{ include.alt }}{% endif %}">
+    alt="{% if include.alt %}{{ include.alt }}{% endif %}"
+    style="max-width: 600px; width:100%; height:auto;">
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
