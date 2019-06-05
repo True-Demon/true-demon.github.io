@@ -6,7 +6,7 @@ auhor_profile: true
 toc: true
 ---
 
-{% include figure image_path="/images/posts/victory.jpg" type=center %}
+{% include figure image_path="/images/posts/victory-min.jpg" type=center %}
 
 It's been an incredibly long journey. After nearly two years since I began in July 2017, I finally achieved my pan-ultimate goal of becoming an Offensive Security Certified Professional March 2019. Three months later, I'm finally getting around to writing my last entry in my OSCP journey.
 
