@@ -40,7 +40,7 @@ Finally, coming up on the 16th hour, I closed my exam and submitted the report. 
 
 Fast forward three days later after barely any sleep because I was half-expecting to get another "you failed" nasty-gram, the results came.
 
-![Congratulations, You Tried Harder](images/oscp-victory.png)
+![Congratulations, You Tried Harder](/images/oscp-victory.png)
 
 I remember reading the email in the evening and just falling back into my bed, still exhausted from the exam just two days prior, and breathing a sigh of relief. More than anything, I was just glad it was over. I passed along the news and promptly passed out and let the reality of the exam result sink in over night. The feelings of satisfaction at having finally succeeded at the OSCP after repeatedly failing so many times did not come until after I came to terms with the fact that I would not have to grapple with any future decisions whether to try again.
 
