@@ -149,7 +149,7 @@ Reviewing the script, I also noted that _it was using the local Credential Manag
 
 I ran PSexec with the same local admin credentials that were sitting on the registers and ... lo' and behold ... a system shell.
 
-Unlike on the registers _this_ server was on the primary domain of the organization I was testing. Worse, a member of the "store administrators" group had recently logged in, and their credentials were still cached in Wdigest. Without even trying to, I had essentially owned the clients' domain reserved for their store servers from a single set of cache registers. The fact I could do this locally was bad enough, but knowing full well I could have done it with a throw-away hackbox connected to the same exactly place as my laptop, this could have easily been done from the parking lot.
+Unlike on the registers _this_ server was on the primary domain of the organization I was testing. Worse, a member of the "store administrators" group had recently logged in, and their credentials were still cached in Wdigest. Without even trying to, I had essentially owned the clients' domain reserved for their store servers from a single set of cash registers. The fact I could do this locally was bad enough, but knowing full well I could have done it with a throw-away hackbox connected to the same exactly place as my laptop, this could have easily been done from the parking lot.
 
 ## Fixing the Problems
 
